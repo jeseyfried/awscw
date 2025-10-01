@@ -10,7 +10,7 @@ header-title:
 header-position: 0px
 toc-section: piano
 geo: [39.70734, 3.42945]
-placename: Yellowstone National Park
+placename: El Romeral Schoolhouse
 tags:
     - music
 ---
