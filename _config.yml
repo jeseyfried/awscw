@@ -1,4 +1,4 @@
-baseurl: /awscw/
+baseurl: /awscw
 repository: jeseyfried/awscw
 defaults:
   - scope:
