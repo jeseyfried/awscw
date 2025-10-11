@@ -3,9 +3,9 @@ title: Villa Paz
 author: Gina Benavidez
 layout: base
 date: 2025-07-21
-thumbnail: images/villa-paz-american-hospital-saelices.jpg
+thumbnail: images/villa-paz-american-hospital-saelices.png
 summary: The most famous of the American hospitals, Villa Paz was a former royal residence and became a popular retreat for American soldiers. 
-header-image: images/villa-paz-american-hospital-saelices.jpg
+header-image: images/villa-paz-american-hospital-saelices.png
 header-title:
 header-position: 0px
 toc-section: piano
