@@ -1,21 +1,21 @@
 ---
 layout: base
-title: FAQs about Xanthan
+title: FAQs about American Women in the Spanish Civil War
 subtitle: 
-author: Fred Gibbs
-date: 2024-10-28
+author: Gina Benavidez
+date: 2025-10-11
 ---
 
 # FAQs
 
-### Why not use an existing website creation tool?
-Unlike commercial platforms such as Wix or Squarespace, Xanthan emphasizes openness and durability over quick customization. Updating your site takes a little more attention to detail, but you don’t need any technical background to get started.  
+### What is this project?
+Information about the project
 
-### Isn't technology always changing? Why spend time on this?
+### What if I want to add information to the site?
+How to add information
 
-### How much coding do I need to learn?
-None!
+### Another question?
+Information
 
-### How long will it take to actually do this?
 
 

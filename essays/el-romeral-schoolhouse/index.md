@@ -1,6 +1,6 @@
 ---
 title: El Romeral Schoolhouse
-author: Jonathan Seyfried
+author: Gina Benavidez
 layout: base
 date: 2025-07-21
 thumbnail: images/el-romeral-schoolhouse.jpg
@@ -9,10 +9,10 @@ header-image: images/el-romeral-schoolhouse.jpg
 header-title:
 header-position: 0px
 toc-section: piano
-geo: [39.70734, 3.42945]
+geo: [39.70734, -3.42945]
 placename: El Romeral Schoolhouse
 tags:
-    - music
+    - tag
 ---
 
 # El Romeral Schoolhouse

@@ -3,14 +3,14 @@ title: Seedling
 author: Fred Gibbs
 layout: base
 date: 2025-07-21
-thumbnail: images/seedling-card.png
+thumbnail: 
 summary: Perfect for beginners getting comfortable with Markdown and digital essays. Basically section headings, a few images, and some pull quotes. Nothing fancy, but enough to make a visually compelling essay.
 header-image: images/seedling-card.png
 header-title: 
 header-position: 0px
-geo: [37.88, -81.08]
-placename: New River Gorge National Park
-toc-section: first
+geo: 
+placename: 
+toc-section:
 tags:
     - history
     - campus
