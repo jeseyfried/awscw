@@ -19,7 +19,7 @@ html, body {
 
 /* base font settings */
 h1, h2, h3, h4, h5 {
-  font-family: 'Calistoga', serif;
+  font-family: 'Fira Mono', monospace;
   text-align: left;
 }
 
