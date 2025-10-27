@@ -11,29 +11,30 @@ PAGE SETUP
   box-sizing: border-box;
 }
 
-/* Minimalist mountain palette */
+/* Spanish Civil War palette */
 :root {
-  --pine: #394e42;         /* Deep pine green */
-  --lichen: #c3d0b7;       /* Soft lichen green */
-  --snow: #fefffe;         /* Pure snow white */
-  --granite: #2c2c2c;      /* Charcoal granite */
-  --fog: #ededed;          /* Light gray-green */
-  --cedar: #7d8471;        /* Muted cedar green */
+  --scarlet: #D62839;       /* Bold scarlet red (propaganda emphasis) */
+  --goldenrod: #F9A03F;     /* Warm golden yellow (flag / accent) */
+  --navy: #1F2E50;          /* Deep navy blue (text / strong background) */
+  --olive: #4F5D3E;         /* Muted olive green (military / ground tone) */
+  --charcoal: #2B2B2B;      /* Charcoal (neutral dark) */
+  --sand: #EDE6D2;          /* Soft sand-beige (background alternative) */
 
   /* Semantic assignments */
-  --text-primary: var(--granite);
-  --text-secondary: #4a4a4a;
-  --text-muted: #7a7a7a;
-  --text-link: var(--pine);
+  --text-primary: var(--charcoal);
+  --text-secondary: #4A4A4A;
+  --text-muted: #7A7A7A;
+  --text-link: var(--scarlet);
 
-  --bg-primary: var(--snow);
-  --bg-secondary: var(--fog);
-  
-  --accent: var(--pine);
-  --accent-hover: var(--lichen);
-  
-  --border: var(--pine);
+  --bg-primary: var(--sand);
+  --bg-secondary: var(--olive);
+
+  --accent: var(--scarlet);
+  --accent-hover: var(--goldenrod);
+
+  --border: var(--scarlet);
 }
+
 
 html, body {
   background-color: var(--bg-primary);
