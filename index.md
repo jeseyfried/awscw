@@ -7,9 +7,6 @@ date: 2024-12-02
 # American Women in the Spanish Civil War
 American women worked in many hospitals during the Spanish Civil War.
 
-# A Seedling Essay
-If you're just learning how all this works, or if you're thinking about having students compose simle digital essays, this essay is a good model. It shows a basic essay with a few images, captions, and section headings. There is some design and typography that you can decide on, but it's deliberately stripped down from what Xanthan can do just to keep things simple at this point.
-
 Most of the text is just dummy text to keep the focus on the page elements.
 
 
