@@ -4,7 +4,7 @@ author: Gina Benavidez
 layout: base
 date: 2025-07-21
 thumbnail: images/no-pasaran.jpg
-summary: An established novelist and journalist associated with the literary left, Josephine Herbst went to Spain in 1937 as a correspondent for *The New Republic* and *Collier’s*.
+summary: An established novelist and journalist associated with the literary left, Josephine Herbst went to Spain in 1937 as a correspondent for The New Republic and Collier’s.
 header-image: images/no-pasaran.jpg
 header-title:
 header-position: 0px
