@@ -1,7 +1,8 @@
 ---
 title: American Women in the Spanish Civil War
 layout: base
-date: 2024-12-02
+author: Gina Benavidez
+date: 2025-10-11
 ---
 
 # American Women in the Spanish Civil War
