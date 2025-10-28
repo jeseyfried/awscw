@@ -11,3 +11,4 @@ American women worked at these hospital sites during the Spanish Civil War.
 
 {% include card-grid.html cards = essays %}
 
+<br style="clear: both">
