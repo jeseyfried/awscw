@@ -23,7 +23,7 @@ PAGE SETUP
   /* Semantic assignments */
   --text-primary: var(--charcoal);
   --text-secondary: #4A4A4A;
-  --text-muted: #7A7A7A;
+  --text-muted: #3a3a3a;
   --text-link: var(--scarlet);
 
   --bg-primary: var(--sand);
