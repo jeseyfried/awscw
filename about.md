@@ -1,7 +1,8 @@
 ---
 title: About
 layout: base
-date: 2024-12-02
+author: Gina Benavidez
+date: 2025-10-11
 ---
 
 # About This Project
