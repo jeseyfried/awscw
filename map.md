@@ -48,8 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
       L.marker(page.geo)
         .addTo(map)
         .bindPopup(`<a href="{{site.baseurl}}${page.url}">
-        <h4>${page.placename}</h4>
-        <h5>${page.title}</h5>
+        <h1>${page.placename}</h1>
         <div class="map-card">${page.summary}</div>
         </a>`);
     }

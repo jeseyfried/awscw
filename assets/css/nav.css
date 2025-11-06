@@ -18,9 +18,9 @@ TOPNAV
 }
 
 .navbar-brand {
-  font-family: 'Calistoga', serif !important;
+  font-family: 'Merriweather', serif !important;
   font-size: 1.5rem;
-  font-weight: bold !important;
+  font-weight: none !important;
   text-decoration: none;
   border-bottom: none;
   color: var(--text-primary) !important;

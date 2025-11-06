@@ -12,15 +12,16 @@ BACKGROUNDs
 
 /* Styling the scrolling text box */
 .bg-text-box {
-  max-width: 40rem;
+  max-width: 60rem;
   margin: 2rem auto;
   padding: 1.5rem 2rem;
   font-family: 'Lora', 'Source Sans 3', sans-serif;
   line-height: 1.6;
-  background: #fff;
+  background: #EDE6D2;
   color: #222;  
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  text-align: center !important;
 }
   
 

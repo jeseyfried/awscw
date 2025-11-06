@@ -20,11 +20,12 @@ html, body {
 
 /* base font settings */
 h1, h2, h3, h4, h5 {
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Lora', sans-serif;
   text-align: left;
 }
 
 h1 {
+  font-family: 'Rock Salt', cursive !important;
   font-size: 2.8rem;
   margin-top: 2rem;
   margin-bottom: .5rem;
@@ -138,7 +139,7 @@ FOOTNOTE STYLING
   font-family: 'Source Sans 3', sans-serif;
   font-size: 0.8rem;
   text-decoration: none;
-  color: #fff;
+  color: #030303;
   
   background: var(--cedar);
   opacity: .6;
@@ -153,7 +154,7 @@ FOOTNOTE STYLING
 .littlefoot__button:hover,
 .littlefoot__button:focus {
   background: #333;
-  color: #fff;
+  color: #070707;
   outline: none;
 }
 
@@ -243,7 +244,7 @@ PULLQUOTES
     width:100%;
     padding: .4em;
     border:1px solid #ccc;
-    background:#fefefe;
+    background:#95a187;
     margin-bottom:1em;
   }
 
