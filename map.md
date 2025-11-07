@@ -13,6 +13,7 @@ layout: map
       {
         "title": {{ page.title | jsonify }},
         "url": {{ page.url | jsonify }},
+        "header-image": {{ page.header-image | jsonify }},
         "placename": {{ page.placename | jsonify }},
         "summary": {{ page.summary | jsonify }},
         "geo": {{ page.geo | jsonify }}
@@ -43,15 +44,19 @@ document.addEventListener("DOMContentLoaded", function() {
     attribution: '© OpenStreetMap contributors'
   }).addTo(map);
 
-  pages.forEach(page => {
-    if (page.geo && page.geo.length === 2) {
-      L.marker(page.geo)
-        .addTo(map)
-        .bindPopup(`<a href="{{site.baseurl}}${page.url}">
-        <h1>${page.placename}</h1>
-        <div class="map-card">${page.summary}</div>
-        </a>`);
-    }
-  });
+pages.forEach(p => {
+  if (!p.geo) return;
+  const marker = L.marker([p.geo.lat, p.geo.lng]).addTo(map);
+  const imgHtml = p["header-image"] ? `<img src="${p["header-image"]}" alt="${p.title}">` : "";
+  const html = `
+    <div class="popup-wrapper">
+      ${imgHtml}
+      <div class="popup-text">
+        <h3 class="popup-title"><a href="${p.url}">${p.title}</a></h3>
+        <p class="popup-placename">${p.placename || ""}</p>
+        <p class="popup-summary">${p.summary || ""}</p>
+      </div>
+    </div>`;
+  marker.bindPopup(html);
 });
 </script>
