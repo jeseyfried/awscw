@@ -12,6 +12,7 @@ layout: map
       {% unless first %},{% endunless %}
       {
         "title": {{ page.title | jsonify }},
+        "baseurl": {{ site.baseurl | jsonify }},
         "url": {{ page.url | jsonify }},
         "header-image": {{ page.header-image | jsonify }},
         "placename": {{ page.placename | jsonify }},
@@ -47,12 +48,12 @@ document.addEventListener("DOMContentLoaded", function() {
 pages.forEach(p => {
   if (!p.geo) return;
   const marker = L.marker(p.geo).addTo(map);
-  const imgHtml = p["header-image"] ? `<img src="${p["header-image"]}" alt="${p.title}">` : "";
+  const imgHtml = p["header-image"] ? `<img src="${p.baseurl}${p.url}${p.header-image}" alt="${p.title}">` : "";
   const html = `
     <div class="popup-wrapper">
       ${imgHtml}
       <div class="popup-text">
-        <h3 class="popup-title"><a href="${p.url}">${p.title}</a></h3>
+        <h1 class="popup-title"><a href="${p.baseurl}${p.url}">${p.title}</a></h1>
         <p class="popup-placename">${p.placename || ""}</p>
         <p class="popup-summary">${p.summary || ""}</p>
       </div>
