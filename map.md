@@ -14,7 +14,7 @@ layout: map
         "title": {{ page.title | jsonify }},
         "baseurl": {{ site.baseurl | jsonify }},
         "url": {{ page.url | jsonify }},
-        "header-image": {{ page.header-image | jsonify }},
+        "headerimage": {{ page.header-image | jsonify }},
         "placename": {{ page.placename | jsonify }},
         "summary": {{ page.summary | jsonify }},
         "geo": {{ page.geo | jsonify }}
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
 pages.forEach(p => {
   if (!p.geo) return;
   const marker = L.marker(p.geo).addTo(map);
-  const imgHtml = p["header-image"] ? `<img src="${p.baseurl}${p.url}${p.header-image}" alt="${p.title}">` : "";
+  const imgHtml = p["header-image"] ? `<img src="${p.baseurl}${p.url}${p.headerimage}" alt="${p.title}">` : "";
   const html = `
     <div class="popup-wrapper">
       ${imgHtml}
