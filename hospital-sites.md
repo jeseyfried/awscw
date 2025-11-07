@@ -7,8 +7,8 @@ date: 2024-12-02
 # Hospital Sites
 American women worked at these hospital sites during the Spanish Civil War. 
 
-{% assign essays = site.pages | where_exp: "page", "page.path contains 'essays/'" %}
+{% assign pages-for-cards = site.pages | where_exp: "page", "page.path contains 'hospitals/'" %}
 
-{% include card-grid.html cards = essays %}
+{% include card-grid.html cards = pages-for-cards %}
 
 <br style="clear: both">
