@@ -58,5 +58,6 @@ pages.forEach(p => {
       </div>
     </div>`;
   marker.bindPopup(html);
+  });
 });
 </script>
