@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
 pages.forEach(p => {
   if (!p.geo) return;
   const marker = L.marker(p.geo).addTo(map);
-  const imgHtml = p["header-image"] ? `<img src="${p.baseurl}${p.url}${p.headerimage}" alt="${p.title}">` : "";
+  const imgHtml = p["headerimage"] ? `<img src="${p.baseurl}${p.url}${p.headerimage}" alt="${p.title}">` : "";
   const html = `
     <div class="popup-wrapper">
       ${imgHtml}
